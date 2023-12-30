@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: auto;
+    margin-left: 15px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #green {
+    color: green;
+    margin-top: auto;
+    margin-bottom: 35px;
+  }
+  
+  #red {
+    color: red;
+    margin-top: auto;
+    margin-bottom: 35px;
+  }
+  
+  p {
+    margin-top: auto;
+    margin-bottom: 35px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-left: 10px solid #2ec3a8; /* Green left border */
+    border-radius: -8px; /* Negative value doesn't work; use positive */
+    padding: 20px;
+    text-align: left;
+    width: 180px; /* Adjust as needed */
+    height: 60px;
+    background-color: white;
+  }
+  
+  /* Remove unnecessary margin-left here */
+  
+  /* Reduce space between adjacent cards */
+  .card + .card {
+    margin-left: 2px; /* Adjust as needed */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #d6d6d6;
+    /* Set the background color of the webpage */
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart-wrapper {
+    width: 48%;
+    /* Adjust as needed */
+    margin-right: 2%;
+    /* Add margin between chart containers */
+    overflow-x: auto;
+    background-color: white;
+    /* Set the background color of the chart container */
+    padding: 20px;
+    /* Add padding for better appearance */
+    border-radius: 8px;
+    /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+canvas {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.chart-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
